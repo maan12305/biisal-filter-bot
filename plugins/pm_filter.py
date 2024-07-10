@@ -1423,7 +1423,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
                     await message.delete()
                 except:
                     pass
-	    else:
+            else:
                 await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024] + links + del_msg, reply_markup=InlineKeyboardMarkup(btn))                    
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
