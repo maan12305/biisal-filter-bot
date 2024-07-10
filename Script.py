@@ -244,11 +244,9 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
 #verified_{}_completed"""
 
-    MOVIES_UPDATE_TXT = """<b>#New_File_Added
+    MOVIES_UPDATE_TXT = """<b>#New_File_Added ✅ 
 
-Title: {title}
-Rating: {rating}
-Genre: {genres}
-
-Description: {description}
+Title - {title} 
+Year 📆- {rating}
+Genre 🎥- {genre}
 </b>"""
